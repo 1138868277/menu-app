@@ -48,6 +48,30 @@
           "description": "锡兰红茶遇上浓郁奶酪，经典好味道",
           "image": "/images/咖啡_锡兰红茶奶酪拿铁.jpg",
           "tags": ["经典", "浓郁"]
+        },
+        {
+          "name": "桂花蜂蜜拿铁",
+          "price": 5,
+          "unit": "杯",
+          "description": "桂花清香融入蜂蜜香甜，温暖治愈",
+          "image": "/images/咖啡_桂花蜂蜜拿铁.jpg",
+          "tags": ["花香", "甜蜜"]
+        },
+        {
+          "name": "桂花乌龙拿铁",
+          "price": 5,
+          "unit": "杯",
+          "description": "桂花搭配乌龙茶底，茶香四溢",
+          "image": "/images/咖啡_桂花乌龙拿铁.jpg",
+          "tags": ["花香", "茶韵"]
+        },
+        {
+          "name": "茉莉青提拿铁",
+          "price": 5,
+          "unit": "杯",
+          "description": "青提果肉搭配茉莉茶香，清爽一夏",
+          "image": "/images/咖啡_茉莉青提拿铁.jpg",
+          "tags": ["果味", "清爽"]
         }
       ]
     },
