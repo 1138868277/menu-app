@@ -14,7 +14,7 @@
           "price": 5,
           "unit": "杯",
           "description": "浓郁咖啡搭配红枣香甜，暖胃又暖心",
-          "image": "/images/咖啡_红枣拿铁.jpg",
+          "image": "./images/咖啡_红枣拿铁.jpg",
           "tags": ["热饮", "养生"]
         },
         {
@@ -22,7 +22,7 @@
           "price": 5,
           "unit": "杯",
           "description": "茉莉花茶与咖啡的碰撞，清新淡雅",
-          "image": "/images/咖啡_茉莉雪芽拿铁.jpg",
+          "image": "./images/咖啡_茉莉雪芽拿铁.jpg",
           "tags": ["花香", "清新"]
         },
         {
@@ -30,7 +30,7 @@
           "price": 5,
           "unit": "杯",
           "description": "香蕉果香融合拿铁，丝滑甜蜜",
-          "image": "/images/咖啡_香蕉拿铁.jpg",
+          "image": "./images/咖啡_香蕉拿铁.jpg",
           "tags": ["果味", "丝滑"]
         },
         {
@@ -38,7 +38,7 @@
           "price": 5,
           "unit": "杯",
           "description": "青提果肉搭配茉莉茶香，清爽一夏",
-          "image": "/images/咖啡_茉莉青提拿铁.jpg",
+          "image": "./images/咖啡_茉莉青提拿铁.jpg",
           "tags": ["果味", "清爽"]
         },
         {
@@ -46,7 +46,7 @@
           "price": 5,
           "unit": "杯",
           "description": "锡兰红茶遇上浓郁奶酪，经典好味道",
-          "image": "/images/咖啡_锡兰红茶奶酪拿铁.jpg",
+          "image": "./images/咖啡_锡兰红茶奶酪拿铁.jpg",
           "tags": ["经典", "浓郁"]
         },
         {
@@ -54,7 +54,7 @@
           "price": 5,
           "unit": "杯",
           "description": "桂花清香融入蜂蜜香甜，温暖治愈",
-          "image": "/images/咖啡_桂花蜂蜜拿铁.jpg",
+          "image": "./images/咖啡_桂花蜂蜜拿铁.jpg",
           "tags": ["花香", "甜蜜"]
         },
         {
@@ -62,7 +62,7 @@
           "price": 5,
           "unit": "杯",
           "description": "桂花搭配乌龙茶底，茶香四溢",
-          "image": "/images/咖啡_桂花乌龙拿铁.jpg",
+          "image": "./images/咖啡_桂花乌龙拿铁.jpg",
           "tags": ["花香", "茶韵"]
         }
       ]
@@ -76,7 +76,7 @@
           "price": 5,
           "unit": "杯",
           "description": "伏特加 + 蓝橙力娇酒 + 水溶C + 橙汁，清爽果味",
-          "image": "/images/特调_橘子海.jpg",
+          "image": "./images/特调_橘子海.jpg",
           "tags": ["果味", "清爽"]
         },
         {
@@ -84,7 +84,7 @@
           "price": 5,
           "unit": "杯",
           "description": "伏特加 + 蓝橙力娇酒 + 水溶C，经典蓝色分层",
-          "image": "/images/特调_阿拉斯加海湾.jpg",
+          "image": "./images/特调_阿拉斯加海湾.jpg",
           "tags": ["经典", "颜值"]
         },
         {
@@ -92,7 +92,7 @@
           "price": 5,
           "unit": "杯",
           "description": "伏特加 + 蓝橙力娇酒 + 葡萄气泡水，星河般闪耀",
-          "image": "/images/特调_满目星河.jpg",
+          "image": "./images/特调_满目星河.jpg",
           "tags": ["气泡", "人气"]
         },
         {
@@ -100,7 +100,7 @@
           "price": 5,
           "unit": "杯",
           "description": "伏特加 + 乳酸菌 + 柠檬气泡水，微酸清爽",
-          "image": "/images/特调_迈阿密海滩.jpg",
+          "image": "./images/特调_迈阿密海滩.jpg",
           "tags": ["乳酸", "清爽"]
         },
         {
@@ -108,7 +108,7 @@
           "price": 5,
           "unit": "杯",
           "description": "伏特加搭配橙汁与葡萄气泡水，如日落般绚烂",
-          "image": "/images/特调_绝对日落.jpg",
+          "image": "./images/特调_绝对日落.jpg",
           "tags": ["果味", "气泡"]
         }
       ]
