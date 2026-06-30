@@ -7,7 +7,19 @@
     <!-- 顶部 -->
     <div class="header">
       <div class="header-accent"></div>
-      <h1 class="store-name">{{ menu.store.name }}</h1>
+      <div class="title-wrapper">
+        <span class="deco deco-1">✦</span>
+        <span class="deco deco-2">·</span>
+        <span class="deco deco-3">✦</span>
+        <span class="deco deco-4">·</span>
+        <span class="deco deco-5">✦</span>
+        <h1 class="store-name">{{ menu.store.name }}</h1>
+        <span class="deco deco-6">✦</span>
+        <span class="deco deco-7">·</span>
+        <span class="deco deco-8">✦</span>
+        <span class="deco deco-9">·</span>
+        <span class="deco deco-10">✦</span>
+      </div>
       <p class="store-desc">{{ menu.store.description }}</p>
       <div v-if="menu.store.notice" class="store-notice">{{ menu.store.notice }}</div>
     </div>
