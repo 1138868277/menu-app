@@ -78,7 +78,7 @@ jobs:
 
             // 2. 生成纯 HTML 重定向页（无图片，加载飞快）
             const cacheBuster = Date.now();
-            const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><title>39的饮品铺子</title></head><body><script>location.href="${previewUrl}&_=${cacheBuster}"</script></body></html>`;
+            const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="referrer" content="no-referrer"><title>39的饮品铺子</title></head><body><script>window.onpageshow=function(e){if(e.persisted)window.location.reload()};window.location.replace("${previewUrl}&_=${cacheBuster}")</script></body></html>`;
             fs.mkdirSync('preview', { recursive: true });
             fs.writeFileSync('preview/index.html', html);
 
