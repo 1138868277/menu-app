@@ -9,11 +9,7 @@
       <div class="header-accent"></div>
       <div class="title-wrapper">
         <h1 class="store-name">
-          <span class="store-name-row">
-            <span class="name-1">39'</span>
-            <span class="name-divider">✦</span>
-            <span class="name-2">mixology cafe</span>
-          </span>
+          <span class="title-main">39' mixology cafe</span>
           <span class="store-name-sub">coffee · cocktail</span>
         </h1>
       </div>

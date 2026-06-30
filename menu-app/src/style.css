@@ -55,26 +55,11 @@ body {
   font-family: "Playfair Display", "Noto Serif SC", serif;
   line-height: 1;
 }
-.store-name-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.name-1 {
-  font-size: 26px; font-weight: 900;
+.title-main {
+  font-size: 28px;
+  font-weight: 900;
   color: var(--gold);
-}
-.name-divider {
-  font-size: 18px;
-  color: var(--gold);
-  opacity: 0.15;
-}
-.name-2 {
-  font-size: 26px; font-weight: 700;
-  color: var(--text);
-  text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 .store-name-sub {
   font-size: 13px;
