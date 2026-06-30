@@ -55,7 +55,7 @@ body {
 }
 .title-main {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 16px;
 }
 .logo-39 {
@@ -69,7 +69,7 @@ body {
     0 2px 0 #a07830,
     0 3px 8px rgba(160,120,48,0.3),
     0 6px 20px rgba(201,169,110,0.15);
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   flex-shrink: 0;
 }
 .title-text {
@@ -78,7 +78,8 @@ body {
   font-weight: 700;
   color: var(--gold);
   letter-spacing: 3px;
-  line-height: 1.2;
+  line-height: 1;
+  padding-bottom: 1px;
 }
 
 .store-desc {
