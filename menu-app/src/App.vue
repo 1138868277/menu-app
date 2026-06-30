@@ -13,7 +13,14 @@
         <span class="deco deco-3">✦</span>
         <span class="deco deco-4">·</span>
         <span class="deco deco-5">✦</span>
-        <h1 class="store-name">{{ menu.store.name }}</h1>
+        <h1 class="store-name">
+          <span class="store-name-row">
+            <span class="name-1">39'</span>
+            <span class="name-divider">✦</span>
+            <span class="name-2">mixology cafe</span>
+          </span>
+          <span class="store-name-sub">coffee · cocktail</span>
+        </h1>
         <span class="deco deco-6">✦</span>
         <span class="deco deco-7">·</span>
         <span class="deco deco-8">✦</span>
@@ -75,6 +82,7 @@
     <!-- 底部 -->
     <div class="footer">
       <span class="footer-text">仅展示 · 不支持下单</span>
+      <p class="store-owner" v-if="menu.store.owner">owner: {{ menu.store.owner }}</p>
     </div>
 
     <!-- 图片预览 -->
