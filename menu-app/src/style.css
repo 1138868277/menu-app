@@ -55,7 +55,7 @@ body {
 }
 .title-main {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 16px;
 }
 .logo-39 {
@@ -71,6 +71,15 @@ body {
     0 6px 20px rgba(201,169,110,0.15);
   letter-spacing: 2px;
   flex-shrink: 0;
+  animation: heartbeat 1.4s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.12); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.08); }
+  56% { transform: scale(1); }
 }
 .title-text {
   font-family: "Playfair Display", serif;
@@ -79,7 +88,6 @@ body {
   color: var(--gold);
   letter-spacing: 3px;
   line-height: 1;
-  padding-bottom: 1px;
 }
 
 .store-desc {
