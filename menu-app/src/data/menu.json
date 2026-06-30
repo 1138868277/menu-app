@@ -64,6 +64,14 @@
           "description": "桂花搭配乌龙茶底，茶香四溢",
           "image": "./images/咖啡_桂花乌龙拿铁.jpg",
           "tags": ["花香", "茶韵"]
+        },
+        {
+          "name": "栀香绿茶拿铁",
+          "price": 5,
+          "unit": "杯",
+          "description": "栀香绿茶搭配拿铁，清新花香",
+          "image": "./images/咖啡_栀香绿茶拿铁.jpg",
+          "tags": ["花香", "清新"]
         }
       ]
     },
