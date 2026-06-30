@@ -54,6 +54,59 @@ body {
   gap: 6px;
 }
 .title-main {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.logo-39 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.logo-shield {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #d4b87a 0%, #c9a96e 50%, #b8944a 100%);
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 0 4px rgba(201,169,110,0.15), 0 4px 16px rgba(201,169,110,0.3);
+}
+.logo-shield::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 50%;
+  border: 2px dashed rgba(201,169,110,0.25);
+  pointer-events: none;
+  animation: spin 20s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.logo-shield::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+.logo-inner {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  margin-top: -4px;
+}
+.title-text {
   font-family: "Playfair Display", serif;
   font-size: 28px;
   font-weight: 900;

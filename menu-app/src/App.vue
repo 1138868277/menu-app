@@ -9,7 +9,14 @@
       <div class="header-accent"></div>
       <div class="title-wrapper">
         <h1 class="store-name">
-          <span class="title-main">39' mixology cafe</span>
+          <span class="title-main">
+            <span class="logo-39">
+              <span class="logo-shield">
+                <span class="logo-inner">39</span>
+              </span>
+            </span>
+            <span class="title-text">mixology cafe</span>
+          </span>
         </h1>
       </div>
       <p class="store-desc">{{ menu.store.description }}</p>
