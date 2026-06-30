@@ -10,11 +10,7 @@
       <div class="title-wrapper">
         <h1 class="store-name">
           <span class="title-main">
-            <span class="logo-39">
-              <span class="logo-shield">
-                <span class="logo-inner">39</span>
-              </span>
-            </span>
+            <span class="logo-39">39</span>
             <span class="title-text">mixology cafe</span>
           </span>
         </h1>
