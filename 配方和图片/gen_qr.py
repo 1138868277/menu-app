@@ -18,16 +18,16 @@ qr = qrcode.QRCode(
 qr.add_data(url)
 qr.make(fit=True)
 
-# 琥珀橙渐变：暖橙中心 → 落日红边缘
+# 天蓝渐变：淡蓝中心 → 深海蓝边缘
 img = qr.make_image(
     image_factory=StyledPilImage,
     module_drawer=RoundedModuleDrawer(),
     color_mask=RadialGradiantColorMask(
-        center_color=(230, 150, 50),       # 暖琥珀色中心
-        edge_color=(200, 80, 50),           # 落日橙红边缘
+        center_color=(100, 180, 255),       # 明亮天蓝中心
+        edge_color=(30, 100, 200),           # 深海蓝边缘
     ),
-    fill_color=(230, 150, 50),
-    back_color=(255, 248, 240),             # 暖白背景
+    fill_color=(100, 180, 255),
+    back_color=(245, 250, 255),             # 冰蓝白背景
 )
 
 img = img.convert("RGBA")
@@ -39,9 +39,9 @@ logo_size = int(qr_img_w * 0.28)
 logo_img = Image.new("RGBA", (logo_size, logo_size), (0, 0, 0, 0))
 ldraw = ImageDraw.Draw(logo_img)
 
-# 白色圆底 + 琥珀色描边
+# 白色圆底 + 天蓝描边
 ldraw.ellipse([2, 2, logo_size - 2, logo_size - 2], fill=(255, 255, 255, 245))
-ldraw.ellipse([2, 2, logo_size - 2, logo_size - 2], outline=(215, 120, 50, 200), width=3)
+ldraw.ellipse([2, 2, logo_size - 2, logo_size - 2], outline=(70, 150, 230, 200), width=3)
 
 try:
     font_size = int(logo_size * 0.5)
@@ -51,7 +51,7 @@ try:
     tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
     tx = (logo_size - tw) // 2
     ty = (logo_size - th) // 2 - 2
-    ldraw.text((tx, ty), text, fill=(200, 100, 40, 230), font=font)
+    ldraw.text((tx, ty), text, fill=(50, 130, 210, 230), font=font)
 except:
     pass
 
@@ -63,13 +63,13 @@ img.paste(logo_img, (logo_x, logo_y), logo_img)
 padding_h = 40
 padding_v = 60
 new_size = (img.width + padding_h * 2, img.height + padding_v * 2)
-canvas = Image.new("RGBA", new_size, (255, 248, 240, 255))
+canvas = Image.new("RGBA", new_size, (245, 250, 255, 255))
 canvas.paste(img, (padding_h, padding_v), img)
 
 draw = ImageDraw.Draw(canvas)
 
-# 四角装饰（琥珀色）
-color_accent = (215, 130, 60)
+# 四角装饰（天蓝色）
+color_accent = (70, 160, 230)
 corner_len = 30
 w, h = new_size
 
@@ -90,7 +90,7 @@ try:
     tw = bbox[2] - bbox[0]
     tx = (w - tw) // 2
     ty = h - padding_v + (padding_v - (bbox[3] - bbox[1])) // 2 - 4
-    draw.text((tx, ty), text, fill=(180, 100, 50, 200), font=font)
+    draw.text((tx, ty), text, fill=(60, 140, 210, 200), font=font)
 except:
     pass
 
