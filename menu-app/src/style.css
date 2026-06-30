@@ -52,21 +52,14 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  font-family: "Playfair Display", "Noto Serif SC", serif;
-  line-height: 1;
 }
 .title-main {
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   font-weight: 900;
   color: var(--gold);
   letter-spacing: 2px;
-}
-.store-name-sub {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text2);
-  letter-spacing: 6px;
-  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .store-desc {

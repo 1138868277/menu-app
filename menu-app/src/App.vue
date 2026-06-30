@@ -10,7 +10,6 @@
       <div class="title-wrapper">
         <h1 class="store-name">
           <span class="title-main">39' mixology cafe</span>
-          <span class="store-name-sub">coffee · cocktail</span>
         </h1>
       </div>
       <p class="store-desc">{{ menu.store.description }}</p>
